@@ -8,7 +8,8 @@ import org.springframework.web.bind.annotation.*;
 @Controller
 @RequestMapping("/user")
 public class UserController {
-
+    // 1. 유저 접속
+    // 새로운 User를
     // http://localhost:8080/user/signup
     @GetMapping("/signup")
     public String signup(Model model) {
