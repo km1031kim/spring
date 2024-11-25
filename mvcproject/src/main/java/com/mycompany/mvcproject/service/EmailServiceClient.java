@@ -1,7 +1,9 @@
 package com.mycompany.mvcproject.service;
 
 import com.mycompany.mvcproject.domain.SendEmailRequest;
+import org.springframework.stereotype.Service;
 
+@Service // 스프링이 관리하는 Service Bean 으로 등록.
 public class EmailServiceClient {
 
     public void sendEmail(SendEmailRequest request) {
