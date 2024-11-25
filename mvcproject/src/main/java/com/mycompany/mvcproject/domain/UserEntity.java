@@ -5,7 +5,7 @@ import org.springframework.web.context.annotation.RequestScope;
 
 @Component
 @RequestScope
-public class User {
+public class UserEntity {
 
     // 미리 설정한 로그인 정보 : DB에 저장된 데이터라고 가정
     public static final String DEFAULT_EMAIL = "test@test.com";
